@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: white;
+    position: fixed;
+    top:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+header #left img{
+    width: 200px;
+    height: auto;
+}
+header #right{
+    margin-top: 40px;
+    width: 70%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+header #right li:hover{
+    text-decoration: underline;
+}
+#home{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#home #left{
+    padding-top: 100px;
+    text-align: center;
+    width: 50%;
+}
+#home #left h1{
+    font-size: 70px;
+}
+#home #right img{
+    margin-top: 10px;
+    margin-right:100px ;
+    width: 400px;
+    height: auto;
+}
+.btn{
+    padding: 10px;
+    border: 1px solid rgb(46, 105, 215);
+    border-radius: 25px;
+    background-color: rgb(46, 105, 215);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(73, 122, 215);
+}
+#home #left p{
+    margin-bottom: 20px;
+}
+#features{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#features div{
+    width: 250px;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(4, 10, 35);
+    color: white;
+}
+#features div:hover{
+    transform: scale(1.1);
+}
+#features div img{
+    width:200px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#features div p{
+    margin-bottom: 20px;
+}
+#register{
+    text-align: center;
+    margin-top: 100px;
+}
+form{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+span{
+    height: 100px;
+}
+
+
+
+
+.section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    font: 300 60px 'Oswald', sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+  
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  
+    max-width: 840px;
+  }
+  
+  /* Left contact page */
+  .form-horizontal {
+    /*float: left;*/
+    max-width: 400px;
+    font-family: 'Lato';
+    font-weight: 400;
+  }
+  .form-control{
+      height: 30px;
+  }
+  .form-control, 
+  textarea {
+      border-radius: 8px;
+      margin-bottom: 10px;
+      resize: none;
+    width: 400px;
+    background-color: #fff;
+    color: #000;
+    letter-spacing: 1px;
+  }
+  
+  #submit{
+      width: 400px;
+      height: 30px;
+      background-color: rgb(40, 106, 220);
+      color: white;
+      border: #555 0.5px solid;
+  }
+  #submit:hover{
+      background-color: white ;
+      color: rgb(40, 106, 220);
+      font-weight: bolder;
+  }
+  /* Begin Right Contact Page */
+  .direct-contact-container {
+    max-width: 480px;
+  }
+  
+  /* Location, Phone, Email Section */
+  .contact-list {
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+  }
+  
+  .list-item {
+    line-height: 4;
+    color: #000;
+  }
+  
+  .contact-text {
+    font: 300 13px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #000;
+  }
+  
+  .place {
+    margin-left: 62px;
+  }
+  
+  .phone {
+    margin-left: 56px;
+  }
+  
+  .gmail {
+    margin-left: 53px;
+  }
+  #check div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  #register h1{
+    margin-bottom: 50px;
+  }
